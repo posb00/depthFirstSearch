@@ -3,6 +3,8 @@
 
 function DepthFirstSearch($root)
 {
+    if($root == null) return [];
+    
     $stack = [ $root ];
     $result = [];
 
